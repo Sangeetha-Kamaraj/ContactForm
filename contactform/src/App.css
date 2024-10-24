@@ -1,0 +1,17 @@
+form {
+  display: flex;
+  flex-direction: column; /* Stack inputs vertically */
+  gap: 5px; /* Space between inputs */
+  max-width: 300px; /* Set a maximum width for the form */
+  margin: auto; /* Center the form horizontally */
+}
+
+input, button {
+  width: 100%; /* Make inputs and buttons full width of the form */
+  padding: 10px; /* Add padding */
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+button {
+  cursor: pointer; /* Change cursor to pointer on buttons */
+}
